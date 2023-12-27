@@ -33,7 +33,7 @@ class response_model(BaseModel):
         getter_dict = PeeweeGetterDict
 
 
-class UserResponse(response_model):
+class UserResponseModel(response_model):
     id: int
     username: str
 
